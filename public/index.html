@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azure Hosted Web App</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Welcome to Azure Web App</h1>
+        <p>Hosted on Microsoft Azure App Service</p>
+      </header>
+
+      <main>
+        <section class="info-panel">
+          <h2>Azure Features</h2>
+          <div class="feature-grid">
+            <div class="feature-card">
+              <h3>App Service</h3>
+              <p>Fully managed platform for building web apps</p>
+            </div>
+            <div class="feature-card">
+              <h3>Auto Scaling</h3>
+              <p>Automatically scale based on demand</p>
+            </div>
+            <div class="feature-card">
+              <h3>Monitoring</h3>
+              <p>Built-in monitoring with Application Insights</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="demo-section">
+          <h2>Live Demo</h2>
+          <div id="demo-container">
+            <div class="status-panel">
+              <p>Server Status: <span id="serverStatus">Checking...</span></p>
+              <p>Response Time: <span id="responseTime">-</span></p>
+            </div>
+            <button id="testConnection">Test Connection</button>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>© 2024 Azure Web App Demo</p>
+      </footer>
+    </div>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
